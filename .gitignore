@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Saídas geradas (não versionar relatórios/gráficos gerados em runtime)
+output/charts/*
+output/reports/*
+!output/charts/.gitkeep
+!output/reports/.gitkeep
+
+# Dados reais (mantenha só exemplos fictícios versionados)
+data/input/*
+!data/input/.gitkeep
+!data/input/exemplo*.xlsx
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+
+# Config local do Claude Code
+.claude/
